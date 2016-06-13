@@ -1,0 +1,9 @@
+{
+    "name": "ChefAutoScalePython",
+    "description": "Creates and deletes chef objects according to scale events",
+    "region": "us-west-2",
+    "handler": "function.lambda_handler",
+    "role": "arn:aws:iam::726759612504:role/lambda_basic_execution",
+    "timeout": 30,
+    "memory": 128
+}

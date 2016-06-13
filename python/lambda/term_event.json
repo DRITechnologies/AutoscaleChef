@@ -1,0 +1,20 @@
+{
+    "Records": [{
+        "EventVersion": "1.0",
+        "EventSubscriptionArn": "arn:aws:sns:us-west-2:726759612504:cloudsuTopic:610242ec-9039-4222-8ae7-be6de5b8a335",
+        "EventSource": "aws:sns",
+        "Sns": {
+            "SignatureVersion": "1",
+            "Timestamp": "2016-06-11T05:02:18.299Z",
+            "Signature": "RpgDlCh+JGOrwGcSgs1osOsPMEwva1agD2e0vj9rXX2LjI9O+f3fFkTkNTAVSL/j6y+8qK2Q0Mbfc0uhSYaCGmIIOrnDBgF66UB7ERURkhvVYF3DQqjiIEkLji3itfHtkGovxNcID/76Vy6lCc9YYSe0Q2iCDuX/HWVU92CfRi+DPbZeD+glUDbaehcaubDvjQ/1oFczNaGSTrlhxQUOo0aIMfDzjg9PkMkQHQ5CZKIPO75fyLhUQVVuXhH/eNPpqjEp1fukEKhaBIISeIbb/uxJJhInt5B9hnRGE1JZht/wLdF4+bgY9X3sRFe99GARbGWjantiHBpY3VVJv3jJVw==",
+            "SigningCertUrl": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-bb750dd426d95ee9390147a5624348ee.pem",
+            "MessageId": "66e8b269-7650-5803-9df5-fdbcebca0228",
+            "Message": "{\"StatusCode\":\"InProgress\",\"Service\":\"AWS Auto Scaling\",\"AutoScalingGroupName\":\"TestingWoo-ASGTestingprod124-WY5O09R5IEIS\",\"Description\":\"Terminating EC2 instance: i-7b2806ee\",\"ActivityId\":\"31bba70e-eb5f-4d69-b045-a48cef95d0f6\",\"Event\":\"autoscaling:EC2_INSTANCE_TERMINATE\",\"Details\":{\"Availability Zone\":\"us-west-2a\"},\"AutoScalingGroupARN\":\"arn:aws:autoscaling:us-west-2:726759612504:autoScalingGroup:c034ab06-a124-4e21-af14-2c182d1b4ae3:autoScalingGroupName/TestingWoo-ASGTestingprod124-WY5O09R5IEIS\",\"Progress\":50,\"Time\":\"2016-06-11T05:02:18.242Z\",\"AccountId\":\"726759612504\",\"RequestId\":\"31bba70e-eb5f-4d69-b045-a48cef95d0f6\",\"StatusMessage\":\"\",\"EndTime\":\"2016-06-11T05:02:18.242Z\",\"EC2InstanceId\":\"i-7b2806ee\",\"StartTime\":\"2016-06-11T05:01:34.577Z\",\"Cause\":\"At 2016-06-11T05:01:15Z a user request update of AutoScalingGroup constraints to min: 1, max: 2, desired: 1 changing the desired capacity from 2 to 1.  At 2016-06-11T05:01:34Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 2 to 1.  At 2016-06-11T05:01:34Z instance i-7b2806ee was selected for termination.\"}",
+            "MessageAttributes": {},
+            "Type": "Notification",
+            "UnsubscribeUrl": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:726759612504:cloudsuTopic:610242ec-9039-4222-8ae7-be6de5b8a335",
+            "TopicArn": "arn:aws:sns:us-west-2:726759612504:cloudsuTopic",
+            "Subject": "Auto Scaling: termination for group \"TestingWoo-ASGTestingprod124-WY5O09R5IEIS\""
+        }
+    }]
+}

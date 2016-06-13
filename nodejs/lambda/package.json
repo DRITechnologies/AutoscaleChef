@@ -1,0 +1,23 @@
+{
+    "name": "autoscalechef",
+    "version": "1.0.0",
+    "description": "Example code for autoscaling clusters using chef server",
+    "main": "function.jhs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bluebird": "3.3.5",
+        "chef": "0.3.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DRITechnologies/AutoscaleChef.git"
+    },
+    "author": "David Richards",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DRITechnologies/AutoscaleChef/issues"
+    },
+    "homepage": "https://github.com/DRITechnologies/AutoscaleChef#readme"
+}
